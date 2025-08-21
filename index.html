@@ -18,7 +18,7 @@
         <div class="current-song" id="current-song">
             <img id="current-song-art" src="" alt="Current song art">
             <div class="current-song-details">
-                <div id="current-song-info">Loading scrobbles...</div> <!-- Text is now in a div -->
+                <div id="current-song-info">Loading music...</div> <!-- Text is now in a div -->
                 <div id="now-playing-text"></div>
             </div>
         </div>
@@ -55,7 +55,7 @@
                         <img src="${nowPlaying.image[2]['#text']}" alt="${nowPlaying.name} album art">
                         <div class="current-song-details">
                             <div id="current-song-info">${nowPlaying.artist['#text']} - ${nowPlaying.name}</div>
-                            <div id="now-playing-text" class="now-playing">Now Scrobbling</div>
+                            <div id="now-playing-text" class="now-playing">Now playing</div>
                         </div>
                     `;
                 } else {
